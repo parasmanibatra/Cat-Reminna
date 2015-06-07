@@ -1,0 +1,6 @@
+#Ignore files build by Visual Studio
+*.dll
+*.pdb
+*.exe
+*.cache
+
