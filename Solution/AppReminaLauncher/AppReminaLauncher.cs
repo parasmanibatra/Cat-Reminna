@@ -11,6 +11,7 @@ namespace AppReminaLauncher
         {
             Console.WriteLine("Here the app server will be launched.");
             Console.WriteLine("aa");
+            Console.WriteLine("bb");
             Console.ReadLine();
         }
     }
