@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +46,19 @@
   <ItemGroup>
     <Compile Include="AppReminaLauncher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppReminaInterfaces\AppReminaInterfaces.csproj">
+      <Project>{1AC1AFE1-7AB6-4D5C-96B6-328EC297A958}</Project>
+      <Name>AppReminaInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppRemina\AppRemina.csproj">
+      <Project>{BA230CBD-21C5-4E45-A0A7-05CE9D3B8BBC}</Project>
+      <Name>AppRemina</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

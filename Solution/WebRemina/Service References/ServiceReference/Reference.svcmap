@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8c96f72e-c869-4be1-b56d-e433ded26d33" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8083/AppReminaService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AppReminaService.wsdl" MetadataType="Wsdl" ID="763f97f9-7d74-4b7f-a140-a4bcc647df4f" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?wsdl" />
+    <MetadataFile FileName="AppReminaService.xsd" MetadataType="Schema" ID="debc4c93-6216-4cef-810c-fea52e1beeae" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?xsd=xsd1" />
+    <MetadataFile FileName="AppReminaService.disco" MetadataType="Disco" ID="a8164fdb-35f2-49d8-89e8-bc49e5d2d36a" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?disco" />
+    <MetadataFile FileName="AppReminaService1.xsd" MetadataType="Schema" ID="b9699872-9468-487c-9d7c-e19deb06c68a" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
