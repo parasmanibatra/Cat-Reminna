@@ -10,6 +10,7 @@ namespace AppReminaLauncher
         static void Main(string[] args)
         {
             Console.WriteLine("Here the app server will be launched.");
+            Console.WriteLine("aa");
             Console.ReadLine();
         }
     }
