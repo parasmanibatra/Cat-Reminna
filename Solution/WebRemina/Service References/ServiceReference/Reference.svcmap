@@ -18,13 +18,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8083/AppReminaService" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8083/AppReminaService" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AppReminaService.wsdl" MetadataType="Wsdl" ID="763f97f9-7d74-4b7f-a140-a4bcc647df4f" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?wsdl" />
-    <MetadataFile FileName="AppReminaService.xsd" MetadataType="Schema" ID="debc4c93-6216-4cef-810c-fea52e1beeae" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?xsd=xsd1" />
-    <MetadataFile FileName="AppReminaService.disco" MetadataType="Disco" ID="a8164fdb-35f2-49d8-89e8-bc49e5d2d36a" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?disco" />
-    <MetadataFile FileName="AppReminaService1.xsd" MetadataType="Schema" ID="b9699872-9468-487c-9d7c-e19deb06c68a" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService?xsd=xsd0" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9e145658-39d4-4854-83d3-8dcef0559f88" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="03ef7768-ef3e-4c17-8bd9-e275d68af891" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="475f107f-f529-4d52-abaf-fc8b07210fa2" SourceId="1" SourceUrl="http://localhost:8083/AppReminaService" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -13,6 +13,13 @@ namespace WebRemina
         {
             ServiceReference.AuthenticationServiceClient proxy = new ServiceReference.AuthenticationServiceClient();
             bool result = proxy.Ping();
+            if (result)
+                result = proxy.Authenticate("cat", "remina");
+            if (result)
+                responseMessage.Text = "authenticated successfully";
+            else
+                responseMessage.Text = "authentication failed";
+
         }
     }
 }

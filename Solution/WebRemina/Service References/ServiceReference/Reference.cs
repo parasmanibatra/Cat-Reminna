@@ -17,6 +17,9 @@ namespace WebRemina.ServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuthenticationService/Ping", ReplyAction="http://tempuri.org/IAuthenticationService/PingResponse")]
         bool Ping();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAuthenticationService/Authenticate", ReplyAction="http://tempuri.org/IAuthenticationService/AuthenticateResponse")]
+        bool Authenticate(string userName, string password);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -48,6 +51,10 @@ namespace WebRemina.ServiceReference {
         
         public bool Ping() {
             return base.Channel.Ping();
+        }
+        
+        public bool Authenticate(string userName, string password) {
+            return base.Channel.Authenticate(userName, password);
         }
     }
 }

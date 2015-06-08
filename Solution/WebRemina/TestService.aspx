@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    Added for testing service
+    <asp:Label runat="server" ID="responseMessage"></asp:Label>
     </div>
     </form>
 </body>

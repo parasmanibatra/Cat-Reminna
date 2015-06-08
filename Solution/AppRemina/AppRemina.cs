@@ -12,5 +12,14 @@ namespace AppRemina
         {
             return true;
         }
+        public bool Authenticate(string userName, string password)
+        {
+             bool isAuthenticate = false;
+             if (userName.ToLower() == "cat" && password.ToLower() == "remina")
+             {
+                 isAuthenticate = true;
+             }
+             return isAuthenticate;
+        }
     }
 }
