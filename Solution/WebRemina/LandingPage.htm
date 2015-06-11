@@ -1,9 +1,24 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html ng-app="MyApp">
 <head>
-    <title></title>
+    <title>Login Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="JSFiles/app.js"></script>
+    <script src="JSFiles/appController.js"></script>
 </head>
 <body>
-I am going to write my UI code here
+    <div ng-controller="LoginController">
+       <p>Login Here</p>
+        <p>UserName :
+            <input type="text" ng-model="name.text" placeholder="Enter name here"></p>
+         <br />
+        <br />
+        <p>Password :
+            <input type="text" ng-model="password.text" placeholder="Enter Your Password"
+        </p>
+        <br />
+        <br />
+        <input type="button" ng-model="btnLogin" value="Login" ng-click="Authenticate()">
+    </div> 
 </body>
 </html>

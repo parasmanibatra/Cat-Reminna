@@ -63,6 +63,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JSFiles\angular.min.js" />
+    <Content Include="JSFiles\app.js" />
+    <Content Include="JSFiles\appController.js" />
     <Content Include="LandingPage.htm" />
     <Content Include="TestService.aspx" />
     <Content Include="Web.config" />
