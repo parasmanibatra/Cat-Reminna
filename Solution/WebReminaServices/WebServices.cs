@@ -7,6 +7,7 @@ using AppReminaInterfaces;
 
 namespace WebReminaServices
 {
+    [CORSSupportAttr]
     public class WebServices : IServices
     {
         IAuthenticationService m_appReminaAuthenticateServiceClient;
@@ -27,6 +28,12 @@ namespace WebReminaServices
         public bool Authenticate(string username, string password)
         {
             return m_appReminaAuthenticateServiceClient.Authenticate(username,password);
+        }
+
+
+        public List<string> GetUsers()
+        {
+            return m_appReminaAuthenticateServiceClient.GetUsers();
         }
     }
 }

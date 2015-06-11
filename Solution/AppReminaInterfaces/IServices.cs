@@ -12,5 +12,7 @@ namespace AppReminaInterfaces
         bool Ping();
         [OperationContract]
         bool Authenticate(string userName, string password);
+        [OperationContract]
+        List<string> GetUsers();
     }
 }

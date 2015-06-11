@@ -21,5 +21,12 @@ namespace AppRemina
              }
              return isAuthenticate;
         }
+        public List<string> GetUsers()
+        {
+            List<string> users = new List<string>();
+            users.Add("Devum Srivastava");
+            users.Add("Parasmani Batra");
+            return users;
+        }
     }
 }
